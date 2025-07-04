@@ -1,8 +1,9 @@
+#include <cstdint>
 #include <iostream>
 
 int main()
 {
-    uint_fast64_t n; // Intermediate numbers may exceed 2^32 - 1.
+    uint_fast64_t n; // 1 <= n <= 10^6.  Intermediate numbers may exceed 2^32 - 1.
     std::cin >> n;
     while (n != 1) {
         std::cout << n << ' ';
