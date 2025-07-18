@@ -1,0 +1,14 @@
+Checks:
+  - bugprone-*
+  - cert-*
+  - misc-*
+  - modernize-*
+  - readability-*
+  - -bugprone-exception-escape
+  - -misc-use-internal-linkage
+  - -modernize-use-trailing-return-type
+  - -readability-identifier-length
+  - -readability-isolate-declaration
+  - -readability-magic-numbers
+  - -readability-math-missing-parentheses
+WarningsAsErrors: '*'

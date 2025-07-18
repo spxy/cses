@@ -1,0 +1,4 @@
+BreakBeforeBraces: Linux
+BreakTemplateDeclarations: Yes
+IndentWidth: 4
+AllowShortFunctionsOnASingleLine: None
